@@ -1,0 +1,1 @@
+C:/Users/amedhi/Documents/PowerShell/Microsoft.PowerShell_profile.ps1
