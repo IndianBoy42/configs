@@ -1,0 +1,30 @@
+# Insert your preferred key mappings here.
+# unmap gf
+# map gf LinkHints.activateModeToOpenInNewForegroundTab
+# unmap gF
+# map gF LinkHints.activateModeToDownloadLink
+# LinkHints.activateModeToOpenIncognito
+unmap f
+map fl LinkHints.activateMode
+map fN LinkHints.activateModeToOpenInNewTab
+map fn LinkHints.activateModeToOpenInNewForegroundTab
+map fd LinkHints.activateModeToDownloadLink
+map fi LinkHints.activateModeToOpenIncognito
+
+map gxr closeTabsOnRight
+map gxl closeTabsOnLeft
+map gxx closeOtherTabs
+
+unmap o
+unmap O
+unmap b
+unmap B
+unmap ge
+unmap gE
+map ou Vomnibar.activate
+map onu Vomnibar.activateInNewTab
+map ot Vomnibar.activateTabSelection
+map ob Vomnibar.activateBookmarks
+map onb Vomnibar.activateBookmarksInNewTab
+map oe Vomnibar.activateEditUrl
+map oE Vomnibar.activateEditUrlInNewTab
