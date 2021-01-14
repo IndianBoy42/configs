@@ -1,1 +1,33 @@
-C:/Users/amedhi/AppData/Roaming/Code/User/tasks.json
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+        "label": "CMake Build",
+        "command": "${command:cmake.build}",
+        "type": "shell",
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        },
+        "problemMatcher": [
+            "$gcc"
+        ]
+    },
+    {
+        "label": "CMake Flash",
+        "type": "shell",
+        "command": "cmake --build build  --target flash ",
+        "problemMatcher": [
+            "$gcc"
+        ]
+    },
+    {
+        "label": "Run AHK Script",
+        "command": "${command:run.ahk}",
+        "type": "shell",
+        "problemMatcher": []
+    }
+]
+}
