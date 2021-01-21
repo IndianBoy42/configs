@@ -38,6 +38,5 @@ CapsLock & y::ShiftAltTab
 CapsLock & u::AltTab
 >!j::ShiftAltTab
 >!k::AltTab
-CapsLock & Alt::AltTab
 CapsLock & i::^+Tab
 CapsLock & o::^Tab
